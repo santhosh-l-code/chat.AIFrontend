@@ -34,7 +34,7 @@ function App() {
       <NavBar/>
       <ChatInput onSubmit={handleQuestionSubmit}/>
       {
-        loading &&<h3 id='load'>Loading</h3>
+        loading &&<h4 id='load'>Loading... Please Wait</h4>
        }
       
       <ChatResponse response={response}/>
